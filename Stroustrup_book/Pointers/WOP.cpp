@@ -26,4 +26,7 @@ int main() {
 
     return 0;
 
+
+    //Note: In C++, pointVar and *pointVar is completely different. We cannot do something like *pointVar = &var;
+
 }
