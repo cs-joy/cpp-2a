@@ -25,8 +25,8 @@ Here, pointVar and &var have the same address, the value of var will also be cha
 #include <iostream>
 using namespace std;
 int main() {
-    int var = 2;
-    int* pointVar;
+    int var = 2; //actual variable declaration
+    int* pointVar; //pointer variable
 
     //store address of var
     pointVar = &var;
