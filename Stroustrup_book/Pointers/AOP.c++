@@ -23,7 +23,7 @@
 /*
 * Title: Application of Pointers
 * Description: Pointer class 
-* Date: 09-October-2017
+* Date: 
 * Author: Mohammad Zahangir Alam
 */
 
