@@ -5,7 +5,7 @@ void firstMessage(); //prototype
 
 int main() {
     firstMessage();
-    cout << "Hello jayScript!!" <<endl;
+    cout << "Hello jayScript!!" <<endl; // printed result
     firstMessage();
 
     return 0;
