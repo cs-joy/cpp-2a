@@ -7,6 +7,7 @@ using namespace std;
 void Sharp();
 
 int main() {
+    //no argument passed to Sharp()
     Sharp();
 
     return 0;
