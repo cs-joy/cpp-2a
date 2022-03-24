@@ -4,17 +4,17 @@
 
 using namespace std;
 
-void Sharp();
+void cSharp();
 
 int main() {
     //no argument passed to Sharp()
-    Sharp();
+    cSharp();
 
     return 0;
 }
 
 // Return type of function is void because value is not returned.
-void Sharp() {
+void cSharp() {
     int num, i, flag = 0;
 
     cout << "Enter a positive integer enter to check: " << endl;
