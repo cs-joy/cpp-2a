@@ -67,6 +67,7 @@ int main() {
     double tDif = endt - str;
     float eT = tDif / CLOCKS_PER_SEC;
     cout << "executing time of testMethod(): " << eT << " sec."<< endl;
+    MultidimensionalArray();
     return 0;
 }
 
@@ -82,5 +83,12 @@ void testMethod() {
 
 void MultidimensionalArray() {
     //Arrays of arrays
-    //+  https://www.cplusplus.com/doc/tutorial/arrays/
+    int jimmy[3][5] = 
+    {
+        {2, 5, 9, 6, 4},
+        {1, 3, 5, 9, 6},
+        {3, 7, 9, 1, 5}
+    };
+
+    cout << jimmy[1][3]<<endl;
 }
