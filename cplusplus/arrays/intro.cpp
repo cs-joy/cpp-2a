@@ -1,5 +1,6 @@
 #include <iostream>
-#include <array>
+#include <cstdlib>
+#include <ctime>
 
 using namespace std;
 
@@ -30,8 +31,30 @@ int main() {
     cout << "-------------------" << endl;
     cout << "-------------------" << endl;
     //Start Topic:> Accessing the values of an array
+    clock_t st = clock();
+    int rjs[5]; //declaration of a new array
+    rjs[2] = 75; //access to an element of the array
+    int x = rjs[2];
+    cout << x << endl;
+    clock_t en =  clock();
+    double tidi = en - st;
+    float exTime = tidi / CLOCKS_PER_SEC;
+    cout << "rjs() take time to executing: " << exTime << " sec." << endl;
+    //some of other valid operations with arrays
+    clock_t start = clock();
+    int brut[] = {16, 2, 77, 40, 12071};
+    int n, result = 0;
+    for(n = 0; n < 5; n++) {
+        result += brut[n];
+    }
+    cout << "result is: "<< result << endl;
+    clock_t end = clock();
 
+    double timediff = end - start;
 
+    float fExecutionTime = timediff/CLOCKS_PER_SEC;
+
+    cout << "brut() take time to execute: " << fExecutionTime << " sec." << endl;
 
     return 0;
 }
