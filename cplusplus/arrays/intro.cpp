@@ -6,6 +6,9 @@ using namespace std;
 
 void testMethod();
 
+//intro about multidimensional arrays
+void MultidimensionalArray();
+
 int main() {
 
     //Initializing the arrays
@@ -75,4 +78,9 @@ void testMethod() {
         result += b[a];
     }
     cout << result << endl;
+}
+
+void MultidimensionalArray() {
+    //Arrays of arrays
+    //+  https://www.cplusplus.com/doc/tutorial/arrays/
 }
