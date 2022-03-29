@@ -4,6 +4,8 @@
 
 using namespace std;
 
+void testMethod();
+
 int main() {
 
     //Initializing the arrays
@@ -56,5 +58,21 @@ int main() {
 
     cout << "brut() take time to execute: " << fExecutionTime << " sec." << endl;
 
+    clock_t str = clock();
+    testMethod();
+    clock_t endt = clock();
+    double tDif = endt - str;
+    float eT = tDif / CLOCKS_PER_SEC;
+    cout << "executing time of testMethod(): " << eT << " sec."<< endl;
     return 0;
+}
+
+void testMethod() {
+    int b[] {1, 2, 3, 4, 5};
+    int a, result = 0;
+
+    for(a = 0; a < 5; a++) {
+        result += b[a];
+    }
+    cout << result << endl;
 }
