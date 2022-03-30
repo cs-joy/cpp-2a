@@ -26,3 +26,13 @@ A Program to Store value entered by user(take input from users) in three dimensi
 
 ### Crux 04:
 Write a C++ program to rearrange the elements of a given array of integers in zig-zag fashion way.
+
+### Crux 05:
+Using two-dimensional arrays, write a function (and a corresponding program to test it) which multiplies an mxn matrix of integers by an nxr matrix of integers. Use global constant declarations before the main program to give test values for m, n and r.
+
+### Crux 06:
+Write a function "no_repetitions(...)" which removes all repetitions of characters from a string. Test the function in a suitable main program, which should be able to reproduce the following input/output:
+```
+Type in a string: This string contains repeated characters
+he string without repetitions is: This trngcoaepd
+```
