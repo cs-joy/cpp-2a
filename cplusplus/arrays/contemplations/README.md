@@ -28,7 +28,24 @@ A Program to Store value entered by user(take input from users) in three dimensi
 Write a C++ program to rearrange the elements of a given array of integers in zig-zag fashion way.
 
 ### Crux 05:
-Using two-dimensional arrays, write a function (and a corresponding program to test it) which multiplies an mxn matrix of integers by an nxr matrix of integers. Use global constant declarations before the main program to give test values for m, n and r.
+Using two-dimensional arrays, write a function (and a corresponding program to test it) which multiplies an mxn matrix of integers by an nxr matrix of integers. Use global constant declarations before the main program to give test values for m, n and r. Example input/output might be:
+```
+	INPUT FIRST (2x2) MATRIX:
+	Type in 2 values for row 1 separated by spaces: 3 4
+	Type in 2 values for row 2 separated by spaces: 5 7
+	INPUT SECOND (2x2) MATRIX:
+	Type in 2 values for row 1 separated by spaces: 1 1
+	Type in 2 values for row 2 separated by spaces: 2 2
+	
+	           3     4
+	           5     7 
+	TIMES
+	           1     1
+	           2     2 
+	EQUALS
+	           11    11
+	           19    19
+```
 
 ### Crux 06:
 Write a function "no_repetitions(...)" which removes all repetitions of characters from a string. Test the function in a suitable main program, which should be able to reproduce the following input/output:
@@ -53,3 +70,12 @@ Write a library of integer array functions with a header file "IntegerArray.h" a
 - A function "standard_deviation(a,n)" which returns the standard deviation of the first n elements of a. (The function "average(a,n)" in the lecture notes may help. A formula for the standard deviation of n values is given in [Exercise Sheet 3, Question 3](https://www.doc.ic.ac.uk/~wjk/c++intro/RobMillerE3.html#Q3).)
 
 Test the functions in a suitably defined main program.
+
+### Crux 09:
+Write a program which takes 2 arrays of 10 integers each, a and b. c is an array with 20 integers. The program should put into c the appending of b to a, the first 10 integers of c from array a, the latter 10 from b. Then the program should display c.
+
+### Crux 10:
+Write a program that search for a number in an int type array of length 10, using binary search. The program repeatedly asks the user to enter a number for searching unless the user press ‘N’ as a sentinel value.
+
+### Crux 11:
+Write a program that asks the user to type 10 integers of an array and an integer value V and an index value i between 0 and 9. The program must put the value V at the place i in the array, shifting each element right and dropping off the last element. The program must then write the final array.
