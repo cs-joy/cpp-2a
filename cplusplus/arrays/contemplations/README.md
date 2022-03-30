@@ -14,4 +14,4 @@ Write a program that reverses a string and prints it on the screen.
 
 ### Precedent 00:
 A Program to Store value entered by user in three dimensional array and display it.
-[Solution]()
+[Solution](https://github.com/cs-joy/cpp-2a/blob/main/cplusplus/arrays/contemplations/precedent.cxx)
