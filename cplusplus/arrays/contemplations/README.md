@@ -99,7 +99,7 @@ c. Give the name of the location where the value 0 is stored?
 Suppose we wish to read in the data for our students' scores but the file is organized differently. Instead of all of one student's labs appearing first, the file has all grades on lab 1 first, then all grades on lab 2, etc. How must the code above be changed to accommodate this new arrangement of data?
 
 ### Crux 17:
-Copy the program [cla14a.cc](https://github.com/cs-joy/cpp-2a/blob/main/cplusplus/arrays/contemplations/cs-mtsu-edu/cla14a.cc)] and the data file [labscores.dat](https://github.com/cs-joy/cpp-2a/blob/main/cplusplus/arrays/contemplations/cs-mtsu-edu/labscores.dat) to your account. This program contains declarations for the labScores array and contains a function which reads in data into this array from the file labscores.dat. Make sure that you understand the code included in the program.
+Copy the program [cla14a.cc](https://github.com/cs-joy/cpp-2a/blob/main/cplusplus/arrays/contemplations/cs-mtsu-edu/cla14a.cc) and the data file [labscores.dat](https://github.com/cs-joy/cpp-2a/blob/main/cplusplus/arrays/contemplations/cs-mtsu-edu/labscores.dat) to your account. This program contains declarations for the labScores array and contains a function which reads in data into this array from the file labscores.dat. Make sure that you understand the code included in the program.
 Add a function to print the scores so that each student's labs appear on a separate line of output. Include a statement in your main program to call this function. Your output should be labeled as follows:
 
 ```
