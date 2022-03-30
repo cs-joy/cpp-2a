@@ -1,11 +1,13 @@
-#define HEIGHT 5
-#define WIDTH 3
+#define WIDTH 5
+#define HEIGHT 3
 
 #include <iostream>
-
+#include <cstdlib>
+#include <ctime>
 using namespace std;
 
 int main() {
+    clock_t start = clock();
     int jimmy[HEIGHT][WIDTH];
     int n,m;
 
@@ -22,6 +24,11 @@ int main() {
         cout<<"\n";
     }
 
+    clock_t end = clock();
+
+    double timediff = end - start;
+    float executionTime = timediff/CLOCKS_PER_SEC;
+    cout << "Execution time: " << executionTime << " sec."<< endl;
 
     return 0;
 }
