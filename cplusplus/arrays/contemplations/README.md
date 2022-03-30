@@ -43,3 +43,13 @@ Adapt the function "selection_sort(...)" in the lecture notes into a single argu
 Type in a string: Rob Miller
 The sorted string is:  MRbeillor
 ```
+
+### Crux 08:
+Write a library of integer array functions with a header file "IntegerArray.h" and implementation file "IntegerArray.cpp", which contains the following functions:
+
+- A function "input_array(a,n)" which allows the user to input values for the first n elements of the array a.
+- A function "display_array(a,n)" which displays the values of the first n elements of the array a on the screen.
+- A function "copy_array(a1,a2,n)" which copies the first n elements of a2 to the respective first n elements in a1.
+- A function "standard_deviation(a,n)" which returns the standard deviation of the first n elements of a. (The function "average(a,n)" in the lecture notes may help. A formula for the standard deviation of n values is given in [Exercise Sheet 3, Question 3](https://www.doc.ic.ac.uk/~wjk/c++intro/RobMillerE3.html#Q3).)
+
+Test the functions in a suitably defined main program.
