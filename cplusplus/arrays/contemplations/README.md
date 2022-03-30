@@ -111,7 +111,16 @@ Add a function to print the scores so that each student's labs appear on a separ
 ```   
 Compile and run your program to make sure it is error free.
 
+### Crux 18:
+Add a function to your copy of cla14a.cc, say StudentAvg(), which finds and prints the lab average for each student in the class. A function prototype for this function is shown below. Activate this function from the main program. Compile and run your program.
+```cpp
+   void StudentAvg(int labScores [][MAX_LABS],  //IN:  Lab scores
+                   int numStudents,             //IN:  # of students in the class
+                   int numLabs)                 //IN:  # of labs recorded per student
+```
 
+### Crux 19:
+Add a function to cla14a.cc, say labAvg(), which finds and prints the average score made on each individual lab. Activate this function from the the main program. Compile and run your program. Turn in a script log of a listing, compile, and run.
 
 
 
