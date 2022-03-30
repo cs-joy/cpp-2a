@@ -24,6 +24,11 @@ A Program to Store value entered by user(take input from users) in three dimensi
 
 [Solution](https://github.com/cs-joy/cpp-2a/blob/main/cplusplus/arrays/contemplations/precedent00a.cxx)
 
+### Precedent 01:
+Passing One-dimensional Array to a Function
+
+[Solution](https://github.com/cs-joy/cpp-2a/blob/main/cplusplus/arrays/contemplations/precedent01.cpp)
+
 ### Crux 04:
 Write a C++ program to rearrange the elements of a given array of integers in zig-zag fashion way.
 
