@@ -36,3 +36,10 @@ Write a function "no_repetitions(...)" which removes all repetitions of characte
 Type in a string: This string contains repeated characters
 he string without repetitions is: This trngcoaepd
 ```
+
+### Crux 07:
+Adapt the function "selection_sort(...)" in the lecture notes into a single argument string function "string_sort(...)" which sorts the characters in a string alphabetically (but putting all upper-case letters before all lower-case letters). The function should leave the position of the sentinel character unchanged. Test the function in a suitable main program, which should be able to reproduce the following input/output:
+```
+Type in a string: Rob Miller
+The sorted string is:  MRbeillor
+```
