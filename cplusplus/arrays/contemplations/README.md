@@ -79,3 +79,47 @@ Write a program that search for a number in an int type array of length 10, usin
 
 ### Crux 11:
 Write a program that asks the user to type 10 integers of an array and an integer value V and an index value i between 0 and 9. The program must put the value V at the place i in the array, shifting each element right and dropping off the last element. The program must then write the final array.
+
+### Crux 12:
+Write a program that uses a “for” loop to count from 0-10 and show the numbers on the screen. In the same file, re-write this program without using a “for” loop.
+
+### Crux 13:
+Write a program that asks the user to type 10 integers of an array and an integer value V. The program must search if the value V exists in the array and must remove the first occurrence of V, shifting each following element left and adding a zero at the end of the array. The program must then write the final array.
+
+### Crux 14:
+Declare a two-dimensional array which can be used to store a yearly budget. Each row of the array corresponds to a particular budgeted item like rent, electric, etc. There are at most 15 items to be budgeted. Each column of the array corresponds to a month, January, February, etc. Of course there are 12 columns corresponding to the 12 months of the year. All the data to be placed in the array consists of real numbers.
+
+### Crux 15:
+a. After the final answer sheet is printed, draw an alternative visualization of memory for the array A as we did above for our lab scores example.
+b. What value is stored in row index 2, column index 1?
+
+c. Give the name of the location where the value 0 is stored?
+
+### Crux 16:
+Suppose we wish to read in the data for our students' scores but the file is organized differently. Instead of all of one student's labs appearing first, the file has all grades on lab 1 first, then all grades on lab 2, etc. How must the code above be changed to accommodate this new arrangement of data?
+
+### Crux 17:
+Copy the program cla14a.cc and the data file labscores.dat to your account. This program contains declarations for the labScores array and contains a function which reads in data into this array from the file labscores.dat. Make sure that you understand the code included in the program.
+Add a function to print the scores so that each student's labs appear on a separate line of output. Include a statement in your main program to call this function. Your output should be labeled as follows:
+
+```
+	Student 1:  80  90  70  100  60  90  85  78  93  80  70  98  89  94
+	Student 2:  98  85 100   99  89  90  72   0  78  98 100  65   0  56
+	Student 3:  85  60  25....
+	.
+	.
+```   
+Compile and run your program to make sure it is error free.
+
+
+
+
+
+
+### References:
+- [cplusplus](https://www.cplusplus.com/doc/tutorial/arrays/)
+- [wikipedia](https://en.wikibooks.org/wiki/C%2B%2B_Programming/Exercises/Static_arrays)
+- [RobMiller](https://www.doc.ic.ac.uk/~wjk/c++intro/RobMillerE6.html)
+- [w3resources](https://www.w3resource.com/cpp-exercises/array/index.php)
+- [erlerobotics](https://erlerobotics.gitbooks.io/erle-robotics-cpp-gitbook/content/arrays_and_strings/exercises_arrays.html)
+- [cs.mtsu](https://www.cs.mtsu.edu/~cs1170/manual/lab14/lab14.html)
