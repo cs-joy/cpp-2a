@@ -19,5 +19,28 @@ int main() {
             cout << "test[ " << i << " ][ " << j << " ] = " << test[i][j] << endl; 
         }
     }
+    cout << "-----------------------" << endl;
+    cout << "------ExampleTwo-------" << endl;
+    cout << "-----------------------" << endl;
+
+    int arr[2][3];
+    cout << "Enter 6 numbers: " << endl;
+
+    //store the user input in the (arr[][]) array
+    for(int i = 0; i < 2; i++) {
+        for(int j = 0; j < 3; j++) {
+            cin >> arr[i][j];
+        }
+    }
+
+    cout << "The numbers are: " << endl;
+
+    for(int s = 0; s < 2; s++) {
+        for(int j = 0; j < 3; j++) {
+            cout << "arr[ " << s << " ][ " << j << "] = " << arr[s][j] << endl;
+        }
+    }
+
+
     return 0;
 }
