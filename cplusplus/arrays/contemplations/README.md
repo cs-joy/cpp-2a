@@ -13,5 +13,11 @@ Write a program that asks for an index and a number. Then it includes the number
 Write a program that reverses a string and prints it on the screen.
 
 ### Precedent 00:
-A Program to Store value entered by user in three dimensional array and display it.
+A Program to Store pre initilized value in three dimensional array and display it.
+
 [Solution](https://github.com/cs-joy/cpp-2a/blob/main/cplusplus/arrays/contemplations/precedent.cxx)
+
+### Precedent 00a:
+A Program to Store value entered by user(take input from users) in three dimensional array and display it.
+
+[Solution](https://github.com/cs-joy/cpp-2a/blob/main/cplusplus/arrays/contemplations/precedent00a.cxx)
