@@ -23,3 +23,6 @@ A Program to Store pre initilized value in three dimensional array and display i
 A Program to Store value entered by user(take input from users) in three dimensional array and display it.
 
 [Solution](https://github.com/cs-joy/cpp-2a/blob/main/cplusplus/arrays/contemplations/precedent00a.cxx)
+
+### Crux 04:
+Write a C++ program to rearrange the elements of a given array of integers in zig-zag fashion way.
