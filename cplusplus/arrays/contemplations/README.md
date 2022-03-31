@@ -524,3 +524,16 @@ Write a program to Find Minimum sum of product of two arrays
 
 ### Crux 120:
 Write a program to K-th largest element in array stream
+
+### ---------
+
+### Crux 121:
+Write a program to Block swap algorithm for array rotation
+
+### Crux 122:
+Write a program to Reversal algorithm for array rotation
+
+### Crux 123:
+Write a program to Juggling algorithm for array rotation
+
+### ---------
