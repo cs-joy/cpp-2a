@@ -502,7 +502,12 @@ Write a program to String Matching using Bitset
 Write a program to Pass array in function in C in two ways
 
 ### Crux 113:
+Write a program to Smallest Missing Positive Integer
+
 ### Crux 114:
+Write a program to Converting a Sorted Array to Binary Tree
+
+
 ### Crux 115:
 
 ### References:
