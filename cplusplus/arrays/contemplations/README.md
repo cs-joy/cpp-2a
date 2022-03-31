@@ -472,7 +472,11 @@ Write a program to Maximize sum of consecutive differences in a circular array
 Write a program to Minimum operations to make GCD of array a multiple of k
 
 ### Crux 104:
+Write a program to Find the Largest lexicographic array with at most K consecutive swaps
+
 ### Crux 105:
+write a program the smallest subset with sum greater than sum of all other elements
+
 ### Crux 106:
 ### Crux 107:
 ### Crux 108:
