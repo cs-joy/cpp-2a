@@ -433,10 +433,20 @@ Find and print the summation of the elements that are under the secondary diagon
 Find and print the summation of the elements that are above the secondary diagonal in a matrix of size 10x10 of type float.
 
 ### Crux 93:
+Find  and  print  the  summation  of  the  elements  that  are  under  the  main diagonal in a matrix of size 10x10 of type integer. 
+
 ### Crux 94:
+Find  and  print  the  summation  of  the  elements  that  are  above  the  main diagonal in a matrix of size 10x10 of type integer. 
+
 ### Crux 95:
+Find and print the summation of each row of 7x5 array of type integer.
+
 ### Crux 96:
+Find and print the summation of each column of 7x5 array of type integer.
+
 ### Crux 97:
+Find and print the summation of the secondary diagonal of a matrix of size 10x10 of type float. 
+
 ### Crux 98:
 ### Crux 99:
 ### Crux 100:
