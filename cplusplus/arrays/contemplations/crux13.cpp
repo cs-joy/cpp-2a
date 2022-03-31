@@ -5,8 +5,7 @@ using namespace std;
 const int SZ = 10;
 
 int main() {
-    int js[SZ];
-    int V;
+    int js[SZ], V;
 
     //ask for integer number of an array
     cout << "Enter 10 integers: " << endl;
@@ -14,23 +13,26 @@ int main() {
         cin >> js[i];
     }
 
-    //ask for integer value
-    cout << "Enter V: " << endl;
+    //ask for integer value to search
+    cout << "Enter value of the V: " << endl;
     cin >> V;
 
     //search
     for(int i = 0; i < SZ; i++) {
-        if( V == js[SZ]) {
+        if( V == js[i]) {
             for(int j = i; j < SZ - 1; j++) {
                 js[j] = js[j+1];
-                js[SZ-1] = 0;
             }
+            js[SZ-1] = 0;
+            break;
         }
     }
 
-    for(auto i: js) {
-        cout << i << endl;
-    }
+    //print out the final result
+    cout << "Final array: " << '\n';
+    for(int s = 0; s < SZ; s++) {
+       cout << js[s] << endl;
+   }
 
     return 0;
 }
