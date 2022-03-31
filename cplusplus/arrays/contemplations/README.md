@@ -166,9 +166,17 @@ e. Sort the array using bubble sort method
 Write C++ functions for all options. The functions should have twoparameters name of the array and number of elements in thearray.
 
 ### Crux 25:
+Write a C++ program to find the largest and smallest element of an array.
+
 ### Crux 26:
+Write a C++ program to reverse the element of an integer 1-D array.
+
 ### Crux 27:
+Write a C++ program to find the sum and average of onedimensional integer array.
+
 ### Crux 28:
+Write a C++ program to swap first and last element of an integer 1-d array.
+
 ### Crux 29:
 ### Crux 30:
 ### Crux 31:
