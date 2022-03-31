@@ -430,6 +430,8 @@ Find and print the summation of each odd column in a 10x10 array of type integer
 Find and print the summation of the elements that are under the secondary diagonal in a matrix of size 10x10 of type float.
 
 ### Crux 92:
+Find and print the summation of the elements that are above the secondary diagonal in a matrix of size 10x10 of type float.
+
 ### Crux 93:
 ### Crux 94:
 ### Crux 95:
