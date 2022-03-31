@@ -23,3 +23,8 @@ Learn C++ Programming Language
 - [erlerobotics](https://erlerobotics.gitbooks.io/erle-robotics-cpp-gitbook/content/arrays_and_strings/exercises_arrays.html)
 - [cs.mtsu](https://www.cs.mtsu.edu/~cs1170/manual/lab14/lab14.html)
 - [opengenus](https://iq.opengenus.org/list-of-array-problems/)
+- [cppforschool](http://www.cppforschool.com/assignment/array_1.html)
+- [codesdope](https://www.codesdope.com/practice/cpp-array/)
+- [scribd](https://www.scribd.com/document/243976062/Array-Questions-C)
+- [tutorialride](https://www.tutorialride.com/cpp-array-programs/17-c-programs-and-code-examples-on-arrays.htm)
+- [pdfprof](https://www.pdfprof.com/PDF_Image.php?idt=39748&t=28)
