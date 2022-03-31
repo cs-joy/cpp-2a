@@ -478,8 +478,17 @@ Write a program to Find the Largest lexicographic array with at most K consecuti
 write a program the smallest subset with sum greater than sum of all other elements
 
 ### Crux 106:
+Write a program to find out-
+
+- Minimum Product Subset of an array
+- Maximum Product Subset of an array
+
 ### Crux 107:
+Write a program to Minimum number of operations to make GCD of an array K
+
 ### Crux 108:
+Write a program to Minimum number of increment or decrement (by 1) operations to make array in increasing order
+
 ### Crux 109:
 ### Crux 110:
 
