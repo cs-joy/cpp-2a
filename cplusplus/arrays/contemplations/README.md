@@ -510,3 +510,5 @@ Write a program to Converting a Sorted Array to Binary Tree
 ### Crux 115:
 Write a program to Minimum number of increment (by 1) operations to make elements of an array unique
 
+### Crux 116:
+Write a program to Multiple array range increments in linear time O(N)
