@@ -448,7 +448,11 @@ Find and print the summation of each column of 7x5 array of type integer.
 Find and print the summation of the secondary diagonal of a matrix of size 10x10 of type float. 
 
 ### Crux 98:
+Find and print the summation of the main diagonal of a matrix of size 10x10 of type integer. 
+
 ### Crux 99:
+Write a C++ program to declare a 2D array of type float and of size 30 rows and 10 columns. Array elements must be entered from keyboard. Then the program finds and prints the summation of each row on the screen.
+
 ### Crux 100:
 
 ### References:
