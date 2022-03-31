@@ -105,6 +105,9 @@ Write a program that uses a “for” loop to count from 0-10 and show the numbe
 ### Crux 13:
 Write a program that asks the user to type 10 integers of an array and an integer value V. The program must search if the value V exists in the array and must remove the first occurrence of V, shifting each following element left and adding a zero at the end of the array. The program must then write the final array.
 
+[Solution](https://github.com/cs-joy/cpp-2a/blob/main/cplusplus/arrays/contemplations/crux13.cpp)
+
+
 ### Crux 14:
 Declare a two-dimensional array which can be used to store a yearly budget. Each row of the array corresponds to a particular budgeted item like rent, electric, etc. There are at most 15 items to be budgeted. Each column of the array corresponds to a month, January, February, etc. Of course there are 12 columns corresponding to the 12 months of the year. All the data to be placed in the array consists of real numbers.
 
