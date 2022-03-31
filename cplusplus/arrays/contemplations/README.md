@@ -292,6 +292,27 @@ C++ Program for Insertion Sort using Array
 ### Crux 65:
 C++ Program for Selection Sort using Arrays
 
+### ------------
+### Crux 66:
+Write a program to print sum, average of all numbers, smallest and largest element of an array.
+
+### Crux 67:
+If the input array is [10, 12, 20, 30, 25, 40, 32, 31, 35, 50, 60], your program should be able to find that the subarray lies between the indexes 3 and 8.
+
+### Crux 68:
+Consider an integer array, the number of elements in which is determined by the user. The elements are also taken as input from the user. Write a program to find those pair of elements that has the maximum and minimum difference among all element pairs.
+
+### Crux 69:
+Take an array of 10 elements. Split it into middle and store the elements in two dfferent arrays. E.g.-
+INITIAL array :
+```
+58	24	13	15	63	9	8	81	1	78
+```
+After spliting :
+```
+58	24	13	15	63
+9	8	81	1	78
+```
 ### References:
 - [cplusplus](https://www.cplusplus.com/doc/tutorial/arrays/)
 - [wikipedia](https://en.wikibooks.org/wiki/C%2B%2B_Programming/Exercises/Static_arrays)
