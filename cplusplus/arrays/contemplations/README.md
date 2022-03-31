@@ -313,6 +313,24 @@ After spliting :
 58	24	13	15	63
 9	8	81	1	78
 ```
+
+### Crux 70:
+Write a program to check if elements of an array are same or not it read from front or back. E.g.-
+```
+2	3	15	15	3	2
+```
+
+### Crux 71:
+Take 10 integer inputs from user and store them in an array. Now, copy all the elements in another array but in reverse order.
+
+### Crux 72:
+Take 20 integer inputs from user and print the following:
+- number of positive numbers
+- number of negative numbers
+- number of odd numbers
+- number of even numbers
+- number of 0.
+
 ### References:
 - [cplusplus](https://www.cplusplus.com/doc/tutorial/arrays/)
 - [wikipedia](https://en.wikibooks.org/wiki/C%2B%2B_Programming/Exercises/Static_arrays)
