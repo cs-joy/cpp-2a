@@ -206,10 +206,16 @@ C++ Program to Find Largest and Smallest Element of a Matrix
 C++ Program to Remove Characters in String Except Alphabets
 
 ### Crux 37:
-### Crux 38:
-### Crux 39:
-### Crux 40:
+C++ Program to find Maximum or Largest number in array
 
+### Crux 38:
+C++ Program to enter 5 numbers & display first and last only
+
+### Crux 39:
+C++ Program To reverse an array elements entered by user
+
+### Crux 40:
+C++ Program to Sort an Array Elements in Ascending Order
 
 
 ### References:
