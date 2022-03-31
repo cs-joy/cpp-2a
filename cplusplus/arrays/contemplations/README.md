@@ -466,6 +466,8 @@ Declaring an array and Using a Loop to Initialize the array’s elements:
 - Remember  that  “\t”  prints  8  spaces  and  we  used  it  here  for  formatting purposes. 
 
 ### Crux 102:
+Write a program to Maximize sum of consecutive differences in a circular array
+
 ### Crux 103:
 ### Crux 104:
 ### Crux 105:
