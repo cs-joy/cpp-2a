@@ -22,3 +22,4 @@ Learn C++ Programming Language
 - [w3resources](https://www.w3resource.com/cpp-exercises/array/index.php)
 - [erlerobotics](https://erlerobotics.gitbooks.io/erle-robotics-cpp-gitbook/content/arrays_and_strings/exercises_arrays.html)
 - [cs.mtsu](https://www.cs.mtsu.edu/~cs1170/manual/lab14/lab14.html)
+- [opengenus](https://iq.opengenus.org/list-of-array-problems/)
