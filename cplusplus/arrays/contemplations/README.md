@@ -456,6 +456,25 @@ Write a C++ program to declare a 2D array of type float and of size 30 rows and 
 ### Crux 100:
 Every element of a string array is a reference to remember that a program can declare arrays of most data types output values for each array.
 
+### Crux 101:
+Declaring an array and Using a Loop to Initialize the array’s elements:
+
+- The program below declares five-element integer array n .  
+- Lines 6–9 use a for statement to initialize the array elements to zeros.  
+- Arrays are not implicitly initialized to zero.  
+- The first  output statement displays the  column headings  for the columns printed in the subsequent for statement, which prints the array in tabular format.  
+- Remember  that  “\t”  prints  8  spaces  and  we  used  it  here  for  formatting purposes. 
+
+### Crux 102:
+### Crux 103:
+### Crux 104:
+### Crux 105:
+### Crux 106:
+### Crux 107:
+### Crux 108:
+### Crux 109:
+### Crux 110:
+
 
 ### References:
 - [cplusplus](https://www.cplusplus.com/doc/tutorial/arrays/)
