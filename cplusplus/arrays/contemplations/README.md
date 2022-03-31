@@ -384,6 +384,14 @@ Given two arrays of integers A and B of sizes M and N respectively. Write a func
 - All old numbers of B from left to right are copied into C from right to left.
 - A, B and C are passed as arguments to MIX (). e.g., A is {3, 2, 1, 7, 6, 3} and B is {9, 3, 5, 6, 2, 8, 10} the resultant array C is {2, 6, 6, 2, 8, 10, 5, 3, 9, 3, 7, 1, 3}
 
+### Crux 81:
+Suppose X. Y, Z are arrays of integers of size M, N, and M + N respectively. The numbers in array X and Y appear in descending order. Write a user-defined function in C++ to produce third array Z by merging arrays X and Y in descending order.
+
+### Crux 82:
+Suppose A, B, C are arrays of integers of size M, N, and M + N respectively. The numbers in array A appear in ascending order while the numbers in array B appear in descending order. Write a user defined function in C++ to produce third array C by merging arrays A and B in ascending order. Use A, B and C as arguments in the function.
+
+### Crux 83:
+
 
 ### References:
 - [cplusplus](https://www.cplusplus.com/doc/tutorial/arrays/)
