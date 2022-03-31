@@ -256,6 +256,29 @@ C++ Program to Delete Element from Array
 ### Crux 53:
 C++ Program to Find Smallest Element in Array
 
+### Crux 54:
+C++ Program to Find Largest Element in Array
+
+### Crux 55:
+C++Program for One Dimensional (1-D) Array
+
+### Crux 56:
+C++ Program to Calculate Average of elements in an Arrays
+
+### Crux 57:
+C++ Program to Access Elements of an Array Using Pointer
+
+### Crux 58:
+C++ Program to Multiply Two Matrix Using Multi-dimensional Arrays
+
+### Crux 59:
+C++ Program to Find Transpose of a Matrix
+
+### Crux 60:
+C++ Program to Subtract Two Matrices
+
+
+
 ### References:
 - [cplusplus](https://www.cplusplus.com/doc/tutorial/arrays/)
 - [wikipedia](https://en.wikibooks.org/wiki/C%2B%2B_Programming/Exercises/Static_arrays)
