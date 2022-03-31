@@ -331,6 +331,52 @@ Take 20 integer inputs from user and print the following:
 - number of even numbers
 - number of 0.
 
+### Crux 73:
+Take an array of length n where all the numbers are nonnegative and unique. Find the element in the array possessing the highest value. Split the element into two parts where first part contains the next highest value in the array and second part hold the required additive entity to get the highest value. Print the array where the highest value get splitted into those two parts.
+```
+Sample input: 4 8 6 3 2
+Sample output: 4 6 2 6 3 2
+```
+
+### Crux 74:
+Write a program to shift every element of an array to circularly right. E.g.-
+```
+INPUT : 1 2 3 4 5
+OUTPUT : 5 1 2 3 4
+```
+
+### Crux 75:
+Initialize a 2D array of 3*3 matrix. E.g.-
+```
+1	2	3
+4	5	6
+7	8	9
+```
+Check if the matrix is symmetric or not.
+
+### Crux 76:
+Sorting refers to arranging data in a particular format. Sort an array of integers in ascending order. One of the algorithm is selection sort. Use below explanation of selection sort to do this.
+INITIAL ARRAY :
+```2	3	1	45	15```
+First iteration : Compare every element after first element with first element and if it is larger then swap. In first iteration, 2 is larger than 1. So, swap it.
+```1	3	2	45	15```
+Second iteration : Compare every element after second element with second element and if it is larger then swap. In second iteration, 3 is larger than 2. So, swap it.
+```1	2	3	45	15```
+Third iteration : Nothing will swap as 3 is smaller than every element after it.
+```1	2	3	45	15```
+Fourth iteration : Compare every element after fourth element with fourth element and if it is larger then swap. In fourth iteration, 45 is larger than 15. So, swap it.
+```1	2	3	15	45```
+
+### Crux 77:
+Input any number. Find the sum of the digits of the number using a recursive function.
+
+## Crux 78:
+Pass a 2D array to function and access all its elements.
+
+### Crux 79:
+Write a program to add and multiply two 3x3 matrices.
+
+
 ### References:
 - [cplusplus](https://www.cplusplus.com/doc/tutorial/arrays/)
 - [wikipedia](https://en.wikibooks.org/wiki/C%2B%2B_Programming/Exercises/Static_arrays)
