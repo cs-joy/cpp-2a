@@ -277,7 +277,20 @@ C++ Program to Find Transpose of a Matrix
 ### Crux 60:
 C++ Program to Subtract Two Matrices
 
+### Crux 61:
+C++ Program for Quick Sort using arrays
 
+### Crux 62:
+C++ Program for Shell Sort using Arrays
+
+### Crux 63:
+C++ Program for Union of Two Sorted Arrays
+
+### Crux 64:
+C++ Program for Insertion Sort using Array
+
+### Crux 65:
+C++ Program for Selection Sort using Arrays
 
 ### References:
 - [cplusplus](https://www.cplusplus.com/doc/tutorial/arrays/)
