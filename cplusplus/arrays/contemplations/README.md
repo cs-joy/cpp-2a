@@ -217,6 +217,31 @@ C++ Program To reverse an array elements entered by user
 ### Crux 40:
 C++ Program to Sort an Array Elements in Ascending Order
 
+### Crux 41:
+C++ Program to Sort an Array Elements in Descending Order
+
+### Crux 42:
+C++ Program for Addition of two matrix
+
+### Crux 43:
+C++ Program to Find Duplicate Elements in Array
+
+### Crux 44:
+C++ Program to Find Sum of Elements of an Array
+
+### Crux 45:
+C++ Program to Reverse elements of an Array
+
+### Crux 46:
+C++ Program to Find Even & Odd Elements in Array
+
+### Crux 47:
+### Crux 48:
+### Crux 49:
+### Crux 50:
+### Crux 51:
+### Crux 52:
+### Crux 53:
 
 ### References:
 - [cplusplus](https://www.cplusplus.com/doc/tutorial/arrays/)
