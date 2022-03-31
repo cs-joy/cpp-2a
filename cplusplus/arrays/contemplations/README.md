@@ -236,9 +236,17 @@ C++ Program to Reverse elements of an Array
 C++ Program to Find Even & Odd Elements in Array
 
 ### Crux 47:
+C++ Program to Delete element from Array
+
 ### Crux 48:
+C++ program to Insert element at specific position in array
+
 ### Crux 49:
+C++ Program to Pass Array in Function
+
 ### Crux 50:
+C++ Program for Three Dimensional (3D) Array
+
 ### Crux 51:
 ### Crux 52:
 ### Crux 53:
