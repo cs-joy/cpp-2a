@@ -454,6 +454,8 @@ Find and print the summation of the main diagonal of a matrix of size 10x10 of t
 Write a C++ program to declare a 2D array of type float and of size 30 rows and 10 columns. Array elements must be entered from keyboard. Then the program finds and prints the summation of each row on the screen.
 
 ### Crux 100:
+Every element of a string array is a reference to remember that a program can declare arrays of most data types output values for each array.
+
 
 ### References:
 - [cplusplus](https://www.cplusplus.com/doc/tutorial/arrays/)
