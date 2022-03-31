@@ -537,3 +537,6 @@ Write a program to Reversal algorithm for array rotation
 Write a program to Juggling algorithm for array rotation
 
 ### ---------
+
+### Crux 124:
+Write a program to Least frequent element in an array
