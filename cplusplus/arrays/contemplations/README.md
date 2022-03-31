@@ -507,8 +507,8 @@ Write a program to Smallest Missing Positive Integer
 ### Crux 114:
 Write a program to Converting a Sorted Array to Binary Tree
 
-
 ### Crux 115:
+Write a program to Minimum number of increment (by 1) operations to make elements of an array unique
 
 ### References:
 - [cplusplus](https://www.cplusplus.com/doc/tutorial/arrays/)
