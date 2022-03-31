@@ -512,3 +512,13 @@ Write a program to Minimum number of increment (by 1) operations to make element
 
 ### Crux 116:
 Write a program to Multiple array range increments in linear time O(N)
+
+### Crux 117:
+Write a program to Move negative elements to front of array
+
+### Crux 118:
+Write a program to Implementing K stacks in one array
+
+### Crux 119:
+
+### Crux 120:
