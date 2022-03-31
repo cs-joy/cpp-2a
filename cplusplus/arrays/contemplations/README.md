@@ -520,5 +520,7 @@ Write a program to Move negative elements to front of array
 Write a program to Implementing K stacks in one array
 
 ### Crux 119:
+Write a program to Find Minimum sum of product of two arrays
 
 ### Crux 120:
+Write a program to K-th largest element in array stream
