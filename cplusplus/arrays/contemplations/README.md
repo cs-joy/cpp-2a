@@ -394,7 +394,7 @@ Suppose A, B, C are arrays of integers of size M, N, and M + N respectively. The
 Suppose a one-dimensional array AR containing integers is arranged in ascending order. Write a user-defined function in C++ to search for an integer from AR with the help of Binary search method, returning an integer 0 to show absence of the number and integer 1 to show presence of the number in the array. Function should have three parameters : (i) array AR (ii) the number to be searched and (iii) the number of elements N in the array.
 
 ### Crux 84:
-
+P is one-dimensional array of integers. Write a C++ function to efficiently search for a data VAL from P. If VAL is present in the array then the function should return value 1 and 0 otherwise.
 
 
 ### References:
