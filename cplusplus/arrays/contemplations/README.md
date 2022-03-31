@@ -495,6 +495,15 @@ Write a program to Implementing two stacks in one array
 ### Crux 110:
 Write a program to Find index such that sum of left sub-array = right sub-array (Equilibrium Index) 
 
+### Crux 111:
+Write a program to String Matching using Bitset
+
+### Crux 112:
+Write a program to Pass array in function in C in two ways
+
+### Crux 113:
+### Crux 114:
+### Crux 115:
 
 ### References:
 - [cplusplus](https://www.cplusplus.com/doc/tutorial/arrays/)
