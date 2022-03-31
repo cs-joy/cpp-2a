@@ -99,6 +99,9 @@ Write a program that asks the user to type 10 integers of an array and an intege
 ### Crux 12:
 Write a program that uses a “for” loop to count from 0-10 and show the numbers on the screen. In the same file, re-write this program without using a “for” loop.
 
+[Solution](https://github.com/cs-joy/cpp-2a/blob/main/cplusplus/arrays/contemplations/crux12.cpp)
+
+
 ### Crux 13:
 Write a program that asks the user to type 10 integers of an array and an integer value V. The program must search if the value V exists in the array and must remove the first occurrence of V, shifting each following element left and adding a zero at the end of the array. The program must then write the final array.
 
