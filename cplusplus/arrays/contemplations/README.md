@@ -144,6 +144,44 @@ Add a function to your copy of cla14a.cc, say StudentAvg(), which finds and prin
 ### Crux 19:
 Add a function to cla14a.cc, say labAvg(), which finds and prints the average score made on each individual lab. Activate this function from the the main program. Compile and run your program. Turn in a script log of a listing, compile, and run.
 
+### ---------------------
+### Crux 20:
+Suppose A, B, C are arrays of integers of size M, N, and M + Nrespectively. The numbers in array A appear in ascending order whilethe numbers in array B appear in descending order. Write a userdefined function in C++ to produce third array C by merging arrays Aand B in ascending order. Use A, B and C as arguments in thefunction.
+
+### Crux 21:
+Suppose a one-dimensional array AR containing integers is arrangedin ascending order. Write a user-defined function in C++ to searchfor an integer from AR with the help of Binary search method,returning an integer 0 to show absence of the number and integer 1to show presence of the number in the array. Function should havethree parameters : (i) array AR (ii) the number to be searched and(iii) the number of elements N in the array.
+
+### Crux 22:
+P is one-dimensional array of integers. Write a C++ function toefficiently search for a data VAL from P. If VAL is present in the arraythen the function should return value 1 and 0 otherwise.
+
+### Crux 23:
+Write a menu driven C++ program with following option
+
+a. Accept elements of an array
+b. Display elements of an array
+c. Sort the array using insertion sort method
+d. Sort the array using selection sort method
+e. Sort the array using bubble sort method
+
+Write C++ functions for all options. The functions should have twoparameters name of the array and number of elements in thearray.
+
+### Crux 25:
+### Crux 26:
+### Crux 27:
+### Crux 28:
+### Crux 29:
+### Crux 30:
+### Crux 31:
+### Crux 32:
+### Crux 33:
+### Crux 34:
+### Crux 34:
+### Crux 35:
+### Crux 36:
+### Crux 37:
+### Crux 38:
+### Crux 39:
+### Crux 40:
 
 
 
