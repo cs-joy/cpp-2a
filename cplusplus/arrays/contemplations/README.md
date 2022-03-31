@@ -177,15 +177,34 @@ Write a C++ program to find the sum and average of onedimensional integer array.
 ### Crux 28:
 Write a C++ program to swap first and last element of an integer 1-d array.
 
+### -------------------
 ### Crux 29:
+Write a C++ Program to implement Merge Sort using Divide and Conquer Algorithm
+
 ### Crux 30:
+C++ Menu Driven Program for Stack Operations Using Arrays
+
 ### Crux 31:
+C++ Program to Find Sum Above and Below of Main Diagonal Matrix
+
 ### Crux 32:
+C++ Program to Print Lowerhalf and Upperhalf of Triangle Matrix
+
 ### Crux 33:
+C++ Program to Find Sum of Diagonals of Matrix
+
 ### Crux 34:
+C++ Program for Linear Search in Arrays
+
 ### Crux 34:
+C++ Program for Binary Search in Arrays
+
 ### Crux 35:
+C++ Program to Find Largest and Smallest Element of a Matrix
+
 ### Crux 36:
+C++ Program to Remove Characters in String Except Alphabets
+
 ### Crux 37:
 ### Crux 38:
 ### Crux 39:
