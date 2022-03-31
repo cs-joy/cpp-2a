@@ -10,16 +10,17 @@ void forDisplay() {
 void usingRecursion(int, int);
 
 int main() {
+    cout << "display (0-10) numbers using for loop: " << endl;
     forDisplay();
 
     //without for using to display 0-10 numbers
-    cout << "without using for loop" << endl;
-    static int i = 1;
-    if( i <= 10) {
-        cout << "i= " << i++ << " ";
-        main();
+    cout << "display (0-10) numbers without using for loop: " << endl;
+    int i, end = 10;
+    i = 0;
+    while(i <= end) {
+        cout << "i: " << i << endl;
+        i++;
     }
-
 
     return 0;
 }
