@@ -8,6 +8,8 @@ integers, a and b (obtained by the user) and will perform the division a/b, stor
 ### Crux 01:
 Create an array that can hold ten integers, and get input from user. Display those values on the screen, and then prompt the user for an integer. Search through the array, and count the number of times the item is found.
 
+[Solution](https://github.com/cs-joy/cpp-2a/blob/main/cplusplus/arrays/contemplations/crux01.cc)
+
 ### Crux 02:
 Write a program that asks for an index and a number. Then it includes the number at the indicated index of the array ={1,2,3,4,5,6} and moves a position forward (from u to u+1) each element after the selected index.
 
