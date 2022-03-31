@@ -490,7 +490,10 @@ Write a program to Minimum number of operations to make GCD of an array K
 Write a program to Minimum number of increment or decrement (by 1) operations to make array in increasing order
 
 ### Crux 109:
+Write a program to Implementing two stacks in one array
+
 ### Crux 110:
+Write a program to Find index such that sum of left sub-array = right sub-array (Equilibrium Index) 
 
 
 ### References:
