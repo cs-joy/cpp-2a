@@ -248,8 +248,13 @@ C++ Program to Pass Array in Function
 C++ Program for Three Dimensional (3D) Array
 
 ### Crux 51:
+C++ Program for Two Dimensional Array
+
 ### Crux 52:
+C++ Program to Delete Element from Array
+
 ### Crux 53:
+C++ Program to Find Smallest Element in Array
 
 ### References:
 - [cplusplus](https://www.cplusplus.com/doc/tutorial/arrays/)
