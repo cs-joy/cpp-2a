@@ -396,6 +396,48 @@ Suppose a one-dimensional array AR containing integers is arranged in ascending 
 ### Crux 84:
 P is one-dimensional array of integers. Write a C++ function to efficiently search for a data VAL from P. If VAL is present in the array then the function should return value 1 and 0 otherwise.
 
+### Crux 85:
+Write a menu driven C++ program with following option:
+
+a. Accept elements of an array
+
+b. Display elements of an array
+
+c. Sort the array using insertion sort method
+
+d. Sort the array using selection sort method
+
+e. Sort the array using bubble sort method
+
+Write C++ functions for all options. The functions should have two parameters name of the array and number of elements in the array.
+
+### Crux 86:
+Write a Program to find the union of two sorted arrays
+
+### Crux 87:
+Write a Program to insert an element in an array at a specific position
+
+### Crux 88:
+Write a Program to Calculate Average of Multiple Numbers Using Arrays
+
+### Crux 89:
+Find and print the summation of each even row in a 10x10 array of type float. 
+
+### Crux 90:
+Find and print the summation of each odd column in a 10x10 array of type integer. 
+
+### Crux 91:
+Find and print the summation of the elements that are under the secondary diagonal in a matrix of size 10x10 of type float.
+
+### Crux 92:
+### Crux 93:
+### Crux 94:
+### Crux 95:
+### Crux 96:
+### Crux 97:
+### Crux 98:
+### Crux 99:
+### Crux 100:
 
 ### References:
 - [cplusplus](https://www.cplusplus.com/doc/tutorial/arrays/)
