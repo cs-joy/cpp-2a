@@ -11,22 +11,22 @@ int main() {
     string srr = "Welcome to Walker!\nConnecting...";
 
     //Declaring iterator
-    string iterator it;
+    std::string::iterator sz;
 
     //Declaring reverse iterator
-    string reverse_iterator it1;
+    std::string::reverse_iterator zs;
 
     //Displaying string
     cout << "The string using forward iterators is: " << endl;
-    for(it = srr.begin(); it != srr.end(); it++) {
-        cout << *it;
+    for(sz = srr.begin(); sz != srr.end(); sz++) {
+        cout << *sz;
     }
     cout << endl;
 
     //Displaying reverse string
     cout << "The reverse string using reverse iterators is: " << endl;
-    for(it1 = srr.rbegin(); it1 != srr.rend(); it1++) {
-        cout << *it1;
+    for(zs = srr.rbegin(); zs != srr.rend(); zs++) {
+        cout << *zs;
     }
     cout << endl;
 
