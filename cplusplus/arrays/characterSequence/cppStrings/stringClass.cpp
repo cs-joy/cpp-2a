@@ -53,7 +53,7 @@ int main() {
     cout << "First char is: " << sj_f << ", Last char is: " << sj_b << endl;
 
     //c_str() returns null terminated char array version of string
-    const char* charstr = jss.c_str()
+    const char* charstr = jss.c_str();
     printf("%s\n", charstr);
 
     //append add the argument string at the end
@@ -72,6 +72,28 @@ int main() {
         cout << "szr found in jss at: " << jss.find(szr) << " position" << endl;
     else
         cout << "szr not found in jss" << endl;
+
+    //substr(a, b) function returns a substring of b length
+    //starting from index a
+    cout << jss.substr(7, 3) << endl;
+
+    // if second argument is not passed, string till end is taken as substring
+    cout << jss.substr(7) << endl;
+
+    // erase(a, b) deletes b characters at index a
+    jss.erase(7,4);
+    cout << "jss= " << jss << endl;
+
+    //iterator version of erase
+    jss.erase(jss.begin() + 5, jss.end() - 3);
+    cout << "jss= " << jss << endl;
+
+    jss = "This is a examples";
+
+    // replace(a, b, str) replaces b characters from a index by str
+    jss.replace(2, 7, "ese are test");
+
+    cout << "jss= " << jss << endl;
 
     return 0;
 }
