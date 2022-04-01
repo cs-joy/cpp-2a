@@ -59,7 +59,19 @@ int main() {
     //append add the argument string at the end
     jss.append(" extension"); //same as jss += " extension"
 
-    
+    //another version of append, which appends part of other string
+    szr.append(jss, 0, 6); //at 0th position 6 character
+    cout <<"jss= " << jss << endl;
+    cout << "szr= " << szr << endl;
+
+    // find returns index where pattern is found.
+    //if pattern is not there it returns predefined
+    //constant npos whose value is -1
+
+    if (jss.find(szr) != string::npos)
+        cout << "szr found in jss at: " << jss.find(szr) << " position" << endl;
+    else
+        cout << "szr not found in jss" << endl;
 
     return 0;
 }
