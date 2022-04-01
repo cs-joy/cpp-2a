@@ -24,14 +24,14 @@ int main()  {
     cout << "test[]: " << test << " " << sizeof(test) << endl;
     //
     cout << "testWord[]: " << testWord << " " << sizeof(testWord) << endl;
-/*
+    /*
     char myWord[0] = {'B'};
     char myWord[1] = {'y'};
     char myWord[2] = {'e'};
     char myWord[3] = {'\0'};
     
     cout << "myWord[]: " << myWord << sizeof(myWord) << endl;
-*/
+    */
 
     return 0;
 }
