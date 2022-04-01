@@ -19,6 +19,18 @@ int main() {
     rjj.copy(sz, 7, 0);
 
     //displaying the char array
+    cout << "The new copied character array is: " << sz << endl;
+
+    //displaying string before swapping
+    cout << "The first string before swapping is: " << rjj << endl;
+    cout << "The second string before swapping is: " << jrr << endl;
+
+    //using swap() to swap string content
+    rjj.swap(jrr);
+
+    //displaying string after swapping
+    cout << "The first string after swapping is: " << rjj << endl;
+    cout << "The second string after swapping is: " << jrr << endl;
 
     return 0;
 }
