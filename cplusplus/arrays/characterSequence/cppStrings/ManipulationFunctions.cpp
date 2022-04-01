@@ -1,3 +1,11 @@
+/*
+
+copy(“char array”, len, pos) ->This function copies the substring in the target character array mentioned in its arguments. 
+                               It takes 3 arguments, target char array, length to be copied, and starting position in the string to start copying.
+swap()	-> This function swaps one string with other.
+
+*/
+
 #include <iostream>
 #include <string>
 
@@ -10,6 +18,9 @@ int main() {
 
     //declaring the 2nd string
     string jrr = "Walker rocks!";
+
+    cout << "Your first initializatio string is: " << rjj << endl;
+    cout << "Your second initialization string is: " << jrr << endl;
 
     //declaring character array
     char sz[80];
