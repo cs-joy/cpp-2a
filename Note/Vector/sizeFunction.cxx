@@ -4,6 +4,10 @@
 
 using namespace std;
 
+void designBreak() {
+    cout << "->->->->-\n";
+}
+
 int main() {
     vector<string> employees;
 
@@ -13,6 +17,19 @@ int main() {
     employees.push_back("doe");
 
     cout << "size of employees variable= " << employees.size() << "\n";
+
+    designBreak();
+
+    vector<int> grades(3);
+    grades[0] = 79;
+    grades[1] = 89;
+    grades[2] = 99;
+
+    for(int j = 0; j < 3; j++) {
+        cout << "grades[" << j << "] = {" << grades[j] << "}\n";
+    }
+
+    designBreak();
 
     return 0;
 }
