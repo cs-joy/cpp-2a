@@ -7,6 +7,17 @@ int main() {
     //Create a vector containing integers
     vector<int> v = {2, 4, 6 ,8, 10};
 
+    //access element
+    cout << "v[0] = {" << v[0] << "}\n";
+
+    cout << "\n-------------\n";
+    //testLoop
+    for(int i = 0; i < 5; i++) {
+        cout << "v[" << i << "] = {" << v[i] << "}\n";
+    }
+
+    cout << "\n-------------\n";
+
     //before using push_back()
     cout << "v= ";
     for(int i : v) {
