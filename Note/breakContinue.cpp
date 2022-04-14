@@ -43,6 +43,7 @@ int main() {
        }
    }
 
+   //s:: https://www.programiz.com/c-programming/c-break-continue-statement
 
     return 0;
 }
