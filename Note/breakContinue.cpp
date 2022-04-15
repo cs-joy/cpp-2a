@@ -101,5 +101,21 @@ int main() {
        cout << "even i=" << i << endl;
    }
 
+   // Program to calculate the sum of numbers (10 numbers max)
+// If the user enters a negative number, it's not added to the result
+   int t, sumt=0;
+   
+  for(int i = 1; i <= 10; i++) {
+      cout << "Enter t[" << i << "]= \n";
+      cin >> t;
+     
+      if(t < 0) {
+          continue;
+      }
+      sumt = sumt + t;
+
+  }
+  cout << "sum = " << sumt << endl;
+
     return 0;
 }
