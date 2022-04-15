@@ -43,7 +43,22 @@ int main() {
        }
    }
 
-   //s:: https://www.programiz.com/c-programming/c-break-continue-statement
+   //Ex01:: Program to calculate the sum of numbers (10 numbers max)
+   //If the user enters a negative number, the loop terminates
+   int number, sum=0;
+
+   for(int i = 1; i <= 10; i++) {
+       cout << "Enter number[" << i << " = ";
+       cin >> number;
+       
+       //if the user enters a negative number, break the loop
+       if(number < 0) {
+           break;
+       }
+       
+       sum += number; //sum = sum + number;
+   }
+   cout << "Sum = " << sum <<endl;
 
     return 0;
 }
