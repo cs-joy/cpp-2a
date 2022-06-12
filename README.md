@@ -118,8 +118,108 @@ Inheritance allows one data type to acquire properties of other data types. Inhe
 
 Multiple inheritance is a C++ feature allowing a class to be derived from more than one base class; this allows for more elaborate inheritance relationships. For example, a "Flying Cat" class can inherit from both "Cat" and "Flying Mammal". Some other languages, such as C# or Java, accomplish something similar (although more limited) by allowing inheritance of multiple interfaces while restricting the number of base classes to one (interfaces, unlike classes, provide only declarations of member functions, no implementation or member data). An interface as in C# and Java can be defined in C++ as a class containing only pure virtual functions, often known as an abstract base class or "ABC". The member functions of such an abstract base class are normally explicitly defined in the derived class, not inherited implicitly. C++ virtual inheritance exhibits an ambiguity resolution feature called dominance.
 
+## Operators and operator overloading
+C++ provides more than 35 operators, covering basic arithmetic, bit manipulation, indirection, comparisons, logical operations and others. Almost all operators can be overloaded for user-defined types, with a few notable exceptions such as member access (. and .*) as well as the conditional operator. The rich set of overloadable operators is central to making user-defined types in C++ seem like built-in types.
 
+Overloadable operators are also an essential part of many advanced C++ programming techniques, such as smart pointers. Overloading an operator does not change the precedence of calculations involving the operator, nor does it change the number of operands that the operator uses (any operand may however be ignored by the operator, though it will be evaluated prior to execution). Overloaded "&&" and "||" operators lose their short-circuit evaluation property.
 
+### Polymorphism
+See also: Polymorphism (computer science)
+
+Polymorphism enables one common interface for many implementations, and for objects to act differently under different circumstances.
+
+C++ supports several kinds of static (resolved at compile-time) and dynamic (resolved at run-time) polymorphisms, supported by the language features described above. Compile-time polymorphism does not allow for certain run-time decisions, while runtime polymorphism typically incurs a performance penalty.
+
+#### Static polymorphism
+See also: Parametric polymorphism and ad hoc polymorphism
+Function overloading allows programs to declare multiple functions having the same name but with different arguments (i.e. ad hoc polymorphism). The functions are distinguished by the number or types of their formal parameters. Thus, the same function name can refer to different functions depending on the context in which it is used. The type returned by the function is not used to distinguish overloaded functions and differing return types would result in a compile-time error message.
+
+When declaring a function, a programmer can specify for one or more parameters a default value. Doing so allows the parameters with defaults to optionally be omitted when the function is called, in which case the default arguments will be used. When a function is called with fewer arguments than there are declared parameters, explicit arguments are matched to parameters in left-to-right order, with any unmatched parameters at the end of the parameter list being assigned their default arguments. In many cases, specifying default arguments in a single function declaration is preferable to providing overloaded function definitions with different numbers of parameters.
+
+Templates in C++ provide a sophisticated mechanism for writing generic, polymorphic code (i.e. parametric polymorphism). In particular, through the curiously recurring template pattern, it's possible to implement a form of static polymorphism that closely mimics the syntax for overriding virtual functions. Because C++ templates are type-aware and Turing-complete, they can also be used to let the compiler resolve recursive conditionals and generate substantial programs through template metaprogramming. Contrary to some opinion, template code will not generate a bulk code after compilation with the proper compiler settings.[67]
+
+#### Dynamic polymorphism
+##### Inheritance
+See also: Subtyping
+
+Variable pointers and references to a base class type in C++ can also refer to objects of any derived classes of that type. This allows arrays and other kinds of containers to hold pointers to objects of differing types (references cannot be directly held in containers). This enables dynamic (run-time) polymorphism, where the referred objects can behave differently, depending on their (actual, derived) types.
+
+C++ also provides the dynamic_cast operator, which allows code to safely attempt conversion of an object, via a base reference/pointer, to a more derived type: downcasting. The attempt is necessary as often one does not know which derived type is referenced. (Upcasting, conversion to a more general type, can always be checked/performed at compile-time via static_cast, as ancestral classes are specified in the derived class's interface, visible to all callers.) dynamic_cast relies on run-time type information (RTTI), metadata in the program that enables differentiating types and their relationships. If a dynamic_cast to a pointer fails, the result is the nullptr constant, whereas if the destination is a reference (which cannot be null), the cast throws an exception. Objects known to be of a certain derived type can be cast to that with static_cast, bypassing RTTI and the safe runtime type-checking of dynamic_cast, so this should be used only if the programmer is very confident the cast is, and will always be, valid.
+
+#### Virtual member functions
+Ordinarily, when a function in a derived class overrides a function in a base class, the function to call is determined by the type of the object. A given function is overridden when there exists no difference in the number or type of parameters between two or more definitions of that function. Hence, at compile time, it may not be possible to determine the type of the object and therefore the correct function to call, given only a base class pointer; the decision is therefore put off until runtime. This is called dynamic dispatch. Virtual member functions or methods[70] allow the most specific implementation of the function to be called, according to the actual run-time type of the object. In C++ implementations, this is commonly done using virtual function tables. If the object type is known, this may be bypassed by prepending a fully qualified class name before the function call, but in general calls to virtual functions are resolved at run time.
+
+In addition to standard member functions, operator overloads and destructors can be virtual. An inexact rule based on practical experience states that if any function in the class is virtual, the destructor should be as well. As the type of an object at its creation is known at compile time, constructors, and by extension copy constructors, cannot be virtual. Nonetheless, a situation may arise where a copy of an object needs to be created when a pointer to a derived object is passed as a pointer to a base object. In such a case, a common solution is to create a clone() (or similar) virtual function that creates and returns a copy of the derived class when called.
+
+A member function can also be made "pure virtual" by appending it with = 0 after the closing parenthesis and before the semicolon. A class containing a pure virtual function is called an abstract class. Objects cannot be created from an abstract class; they can only be derived from. Any derived class inherits the virtual function as pure and must provide a non-pure definition of it (and all other pure virtual functions) before objects of the derived class can be created. A program that attempts to create an object of a class with a pure virtual member function or inherited pure virtual member function is ill-formed.
+
+### Lambda expressions
+C++ provides support for anonymous functions, also known as lambda expressions, with the following form:
+```c++
+[capture](parameters) -> return_type { function_body }
+```
+Since C++20, you can write template parameters on a lambda without the keyword template:
+```c++
+[capture]<template_parameters>(parameters) -> return_type { function_body }
+```
+If the lambda takes no parameters, and no return type or other specifiers are used, the () can be omitted, that is,
+```c++
+[capture] { function_body }
+```
+The return type of a lambda expression can be automatically inferred, if possible, e.g.:
+```c++
+[](int x, int y) { return x + y; } // inferred
+[](int x, int y) -> int { return x + y; } // explicit
+```
+The [capture] list supports the definition of closures. Such lambda expressions are defined in the standard as syntactic sugar for an unnamed function object.
+
+### Exception handling
+Exception handling is used to communicate the existence of a runtime problem or error from where it was detected to where the issue can be handled.[71] It permits this to be done in a uniform manner and separately from the main code, while detecting all errors.[72] Should an error occur, an exception is thrown (raised), which is then caught by the nearest suitable exception handler. The exception causes the current scope to be exited, and also each outer scope (propagation) until a suitable handler is found, calling in turn the destructors of any objects in these exited scopes.[73] At the same time, an exception is presented as an object carrying the data about the detected problem.[74]
+
+Some C++ style guides, such as Google's,[75] LLVM's,[76] and Qt's[77] forbid the usage of exceptions.
+
+The exception-causing code is placed inside a try block. The exceptions are handled in separate catch blocks (the handlers); each try block can have multiple exception handlers, as it is visible in the example below.[78]
+```c++
+#include <iostream>
+#include <vector>
+#include <stdexcept>
+
+int main() {
+    try {
+        std::vector<int> vec{3, 4, 3, 1};
+        int i{vec.at(4)}; // Throws an exception, std::out_of_range (indexing for vec is from 0-3 not 1-4)
+    }
+    // An exception handler, catches std::out_of_range, which is thrown by vec.at(4)
+    catch (std::out_of_range &e) {
+        std::cerr << "Accessing a non-existent element: " << e.what() << '\n';
+    }
+    // To catch any other standard library exceptions (they derive from std::exception)
+    catch (std::exception &e) {
+        std::cerr << "Exception thrown: " << e.what() << '\n';
+    }
+    // Catch any unrecognised exceptions (i.e. those which don't derive from std::exception)
+    catch (...) {
+        std::cerr << "Some fatal error\n";
+    }
+}
+```
+It is also possible to raise exceptions purposefully, using the throw keyword; these exceptions are handled in the usual way. In some cases, exceptions cannot be used due to technical reasons. One such example is a critical component of an embedded system, where every operation must be guaranteed to complete within a specified amount of time. This cannot be determined with exceptions as no tools exist to determine the maximum time required for an exception to be handled.[79]
+
+Unlike signal handling, in which the handling function is called from the point of failure, exception handling exits the current scope before the catch block is entered, which may be located in the current function or any of the previous function calls currently on the stack.
+
+### Enumerated types
+This section is an excerpt from Enumerated type § C++.[edit]
+C++ has enumeration types that are directly inherited from C's and work mostly like these, except that an enumeration is a real type in C++, giving added compile-time checking. Also (as with structs), the C++ enum keyword is automatically combined with a typedef, so that instead of naming the type enum name, simply name it name. This can be simulated in C using a typedef: typedef enum {Value1, Value2} name;
+
+C++11 also provides a second kind of enumeration, called a scoped enumeration. These are type-safe: the enumerators are not implicitly converted to an integer type. Among other things, this allows I/O streaming to be defined for the enumeration type. Another feature of scoped enumerations is that the enumerators do not leak, so usage requires prefixing with the name of the enumeration (e.g., Color::Red for the first enumerator in the example below), unless a using enum declaration (introduced in C++20) has been used to bring the enumerators into the current scope. A scoped enumeration is specified by the phrase enum class (or enum struct). For example:
+```c++
+enum class Color {Red, Green, Blue};
+```
+The underlying type of an enumeration is an implementation-defined integral type that is large enough to hold all enumerated values; it does not have to be the smallest possible type. The underlying type can be specified directly, which allows "forward declarations" of enumerations:
+```c++
+enum class Color : long {Red, Green, Blue};  // must fit in size and memory layout the type 'long'
+enum class Shapes : char;  // forward declaration. If later there are values defined that don't fit in 'char' it is an error.
+```
 
 
 ### References:
