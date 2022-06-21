@@ -19,3 +19,18 @@ Example
 ```cpp
 cout << "Hello World!"; // This is a comment
 ```
+
+### Multi-line Comments
+Multi-line comments start with `/*` and ends with `*/`.
+
+Any text between `/*` and `*/` will be ignored by the compiler:
+
+Example
+```cpp
+/* The code below will print the words Hello World!
+to the screen, and it is amazing */
+cout << "Hello World!";
+```
+> Single or multi-line comments?
+
+It is up to you which you want to use. Normally, we use // for short comments, and /* */ for longer.
