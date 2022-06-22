@@ -89,8 +89,15 @@ Example\
 int x = 5, y = 6, z = 50;
 cout << x + y + z;
 ```
+### One Value to Multiple Variables
+You can also assign the same value to multiple variables in one line:
 
-
+Example
+```cp
+int x, y, z;
+x = y = z = 50;
+cout << x + y + z;
+```
 
 
 
