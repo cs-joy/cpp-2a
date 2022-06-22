@@ -44,3 +44,15 @@ myNum = 10;  // Now myNum is 10
 cout << myNum;  // Outputs 10
 ```
 
+Other Types
+A demonstration of other data types:
+
+Example
+```cp
+int myNum = 5;               // Integer (whole number without decimals)
+double myFloatNum = 5.99;    // Floating point number (with decimals)
+char myLetter = 'D';         // Character
+string myText = "Hello";     // String (text)
+bool myBoolean = true;       // Boolean (true or false)
+```
+For more to check [Data Types](https://www.w3schools.com/cpp/cpp_data_types.asp)
