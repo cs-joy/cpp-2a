@@ -124,4 +124,19 @@ The general rules for naming variables are:
 - Names cannot contain whitespaces or special characters like `!, #, %,` etc.
 - Reserved words (like C++ keywords, such as `int`) cannot be used as names
 
+# Constants
+When you do not want others (or yourself) to override existing variable values, use the const keyword (this will declare the variable as "constant", which means unchangeable and read-only):
 
+Example
+```cp
+const int myNum = 15;  // myNum will always be 15
+myNum = 10;  // error: assignment of read-only variable 'myNum'
+```
+
+You should always declare the variable as constant when you have values that are unlikely to change:
+
+Example
+```cp
+const int minutesPerHour = 60;
+const float PI = 3.14;
+```
