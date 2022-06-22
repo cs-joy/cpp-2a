@@ -44,7 +44,7 @@ myNum = 10;  // Now myNum is 10
 cout << myNum;  // Outputs 10
 ```
 
-Other Types
+### Other Types
 A demonstration of other data types:
 
 Example
@@ -56,3 +56,24 @@ string myText = "Hello";     // String (text)
 bool myBoolean = true;       // Boolean (true or false)
 ```
 For more to check [Data Types](https://www.w3schools.com/cpp/cpp_data_types.asp)
+
+### Display Variables
+The cout object is used together with the `<<` operator to display variables.
+
+To combine both text and a variable, separate them with the << operator:
+
+Example
+```cp
+int myAge = 35;
+cout << "I am " << myAge << " years old.";
+```
+
+
+
+
+
+
+
+
+
+
