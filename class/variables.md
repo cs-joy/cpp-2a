@@ -34,3 +34,13 @@ int myNum;
 myNum = 15;
 cout << myNum;
 ```
+
+Note that if you assign a new value to an existing variable, it will overwrite the previous value:
+
+Example
+```cp
+int myNum = 15;  // myNum is 15
+myNum = 10;  // Now myNum is 10
+cout << myNum;  // Outputs 10
+```
+
