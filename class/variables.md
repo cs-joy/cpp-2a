@@ -80,6 +80,16 @@ cout << sum;
 ```
 
 
+## Declare Multiple Variables
+### Declare Many Variables
+To declare more than one variable of the same type, use a comma-separated list:
+
+Example\
+```cp
+int x = 5, y = 6, z = 50;
+cout << x + y + z;
+```
+
 
 
 
