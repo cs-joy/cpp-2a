@@ -68,7 +68,16 @@ int myAge = 35;
 cout << "I am " << myAge << " years old.";
 ```
 
+### Add Variables Together
+To add a variable to another variable, you can use the + operator:
 
+Example
+```cp
+int x = 5;
+int y = 6;
+int sum = x + y;
+cout << sum;
+```
 
 
 
