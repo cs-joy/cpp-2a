@@ -29,20 +29,19 @@ int main() {
            // use logical and(&&) operator
            if(tolower(frrr[1] == 'a' && tolower(mrrr[1] == 'a'))){
 
-           int frrrLast = strlen(frrr) - 1;
-           int mrrrLast = strlen(mrrr) - 1;
-           int arrLast = strlen(arr) - 1;
-        
-           // use logical or(||) operator
-           if (frrr[frrrLast] == arr[arrLast] || mrrr[mrrrLast] == arr[arrLast])
-           {
-               cout << "accepted";
-           }
-           else
-           {
-               cout << "not accepted";
-           }
+               int frrrLast = strlen(frrr) - 1;
+               int mrrrLast = strlen(mrrr) - 1;
+               int arrLast = strlen(arr) - 1;
 
+               // use logical or(||) operator
+               if (frrr[frrrLast] == arr[arrLast] || mrrr[mrrrLast] == arr[arrLast])
+               {
+                   cout << "accepted";
+               }
+               else
+               {
+                   cout << "not accepted";
+               }
            } 
            else 
            {
