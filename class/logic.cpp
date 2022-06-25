@@ -22,12 +22,18 @@ int main() {
 
     if(!(tolower(arr[0]) == 's')){
 
+
+       // // use logical not(!) operator
        if(!(tolower(frrr[0]) == tolower(mrrr[0]))){
+
+           // use logical and(&&) operator
+           if(tolower(frrr[1] == 'a' && tolower(mrrr[1] == 'a'))){
 
            int frrrLast = strlen(frrr) - 1;
            int mrrrLast = strlen(mrrr) - 1;
            int arrLast = strlen(arr) - 1;
-
+        
+           // use logical or(||) operator
            if (frrr[frrrLast] == arr[arrLast] || mrrr[mrrrLast] == arr[arrLast])
            {
                cout << "accepted";
@@ -36,10 +42,16 @@ int main() {
            {
                cout << "not accepted";
            }
+
+           } 
+           else 
+           {
+            cout << "frrr[1] and mrr[1] are not same";
+           }
         }
         else 
         {
-            cout << "not accepted because frr[0] and mrr[0] ar same";
+            cout << "not accepted because frrr[0] and mrrr[0] ar same";
         }
         
     } 
