@@ -8,10 +8,10 @@ int main() {
     char frrr[100];
     char mrrr[100];
 
-    cout << "enter father name: ";
+    cout << "enter your name: ";
     cin >> frrr;
     
-    cout << "enter mother name: ";
+    cout << "enter your wife name: ";
     cin >> mrrr;
 
     cout << "enter your baby name: ";
