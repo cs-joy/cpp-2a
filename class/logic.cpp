@@ -21,18 +21,32 @@ int main() {
     
 
     if(!(tolower(arr[0]) == 's')){
-       int frrrLast = strlen(frrr)-1;
-       int mrrrLast = strlen(mrrr)-1;
-       int arrLast = strlen(arr)-1;
 
-       if(frrr[frrrLast] == arr[arrLast] || mrrr[mrrrLast] == arr[arrLast]){
-        cout << "accepted";
-       }else {
-        cout << "not accepted";
-       }
+       if(!(tolower(frrr[0]) == tolower(mrrr[0]))){
+
+           int frrrLast = strlen(frrr) - 1;
+           int mrrrLast = strlen(mrrr) - 1;
+           int arrLast = strlen(arr) - 1;
+
+           if (frrr[frrrLast] == arr[arrLast] || mrrr[mrrrLast] == arr[arrLast])
+           {
+               cout << "accepted";
+           }
+           else
+           {
+               cout << "not accepted";
+           }
+        }
+        else 
+        {
+            cout << "not accepted because frr[0] and mrr[0] ar same";
+        }
         
-    } else {
+    } 
+    else 
+    {
         cout << "not accepted";
     }
+
     return 0;
 }
