@@ -1,7 +1,9 @@
 ## myContinuous
 
 ### Operators
-Operators are symbols that perform operations on variables and values.
+Operators are symbols that perform operations on variables and values. 
+
+Operators are the foundation of any programming language. We can define operators as symbols that help us to perform specific mathematical and logical computations on operands.
 
 Operators in C++ can be classified into 6 types:
 
