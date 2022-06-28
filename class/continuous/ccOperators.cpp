@@ -30,4 +30,16 @@ void sizeofOperator(){
 
     cout << "sizof b= " << b << " and a= " << a << endl;
     cout << "sizeof (a + d)= " << sizeof(a+d);
+
+
+    /*
+      To find out number of elements in a array. 
+      Sizeof can be used to calculate number of elements of the array automatically. Let's see...
+    */
+    cout << "\nArray---\n";
+    int myArr[] = { 1, 2, 3, 4, 7, 98,
+    0, 12, 35, 99, 14, 3, 4, 7, 98, 1, 2, 35, 99, 14, 3, 4,};
+
+    cout << "sizeof myArr is= " << sizeof(myArr) / sizeof(myArr[0]);
+
 }
