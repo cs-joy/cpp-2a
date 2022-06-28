@@ -7,6 +7,8 @@ void sizeofOperator();
 int main() {
 
     sizeofOperator();
+    cout << "br\n";
+    commaOperator();
 
     return 0;
 }
@@ -55,4 +57,9 @@ void sizeofOperator(){
     cout << *ab;
     // refference - checkout this article to learn more: https://www.geeksforgeeks.org/dynamic-memory-allocation-in-c-using-malloc-calloc-free-and-realloc/
 
+}
+
+void commaOperator() {
+    int i = (5, 10);
+    cout << i;
 }
