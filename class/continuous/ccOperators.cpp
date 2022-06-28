@@ -5,6 +5,17 @@ using namespace std;
 void sizeofOperator();
 void commaOperator();
 
+
+int f1(){
+    int num  = 1;
+    return num;
+}
+
+int f2(){
+    int num = 2;
+    return num;
+}
+
 int main() {
 
     sizeofOperator();
@@ -62,6 +73,13 @@ void sizeofOperator(){
 
 void commaOperator() {
     // The comma operator (represented by the token) is a binary operator that evaluates its first operand and discards the result, it then evaluates the second operand and returns this value (and type).
+    
+    // Comma as an operator: 
     int i = (5, 10);
-    cout << i;
+
+    int j = (f1(), f2()); /* 
+                              f1() is called (evaluated) first followed by f2().
+                              The returned value of f2() is assigned to j
+                          */
+    cout << "Comma as an operator: " << i << "\n" << j;
 }
