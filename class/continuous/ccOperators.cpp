@@ -13,6 +13,8 @@ int main() {
 
 void sizeofOperator(){
 
+    // refference :: https://en.wikipedia.org/wiki/Sizeof
+
     int intVariable;
     float floatVariable;
     char charVariable;
@@ -40,6 +42,14 @@ void sizeofOperator(){
     int myArr[] = { 1, 2, 3, 4, 7, 98,
     0, 12, 35, 99, 14, 3, 4, 7, 98, 1, 2, 35, 99, 14, 3, 4,};
 
-    cout << "sizeof myArr is= " << sizeof(myArr) / sizeof(myArr[0]);
+    cout << "number of elements in myArr is= " << sizeof(myArr) / sizeof(myArr[0]);
+
+    cout << "\n--Malloc\n";
+
+    // Dynamically allocate memory using malloc()
+    int* ptr = (int*)malloc(10 * sizeof(int));
+
+    cout << ptr;
+    // refference - checkout this article to learn more: https://www.geeksforgeeks.org/dynamic-memory-allocation-in-c-using-malloc-calloc-free-and-realloc/
 
 }
