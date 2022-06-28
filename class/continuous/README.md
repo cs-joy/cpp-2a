@@ -88,7 +88,7 @@ If initially, the value stored in a is 6. Then (a /= 2) = 3.
 
 Apart from the above operators, there are some other operators available in C or C++ used to perform some specific tasks. Some of them are discussed here: 
 
-a. sizeof operator: 
+#### a. sizeof operator: 
 
 sizeof is much used in the C/C++ programming language.
 It is a compile-time unary operator which can be used to compute the size of its operand.
