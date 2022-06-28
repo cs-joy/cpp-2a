@@ -4,6 +4,7 @@ using namespace std;
 
 void sizeofOperator();
 void commaOperator();
+void conditionalOperator();
 
 
 int f1( int num ){
@@ -21,6 +22,9 @@ int main() {
     sizeofOperator();
     cout << "\nbr\n";
     commaOperator();
+
+    cout << "\nbr\n";
+    conditionalOperator();
 
     return 0;
 }
@@ -104,3 +108,5 @@ void commaOperator() {
 
    // refference :: https://www.geeksforgeeks.org/comna-in-c-and-c/
 }
+
+void conditionalOperator(){}
