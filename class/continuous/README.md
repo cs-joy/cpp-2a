@@ -14,14 +14,17 @@ Operators in C++ can be classified into 6 types:
 - Bitwise Operators
 - Other Operators
 
-1. Arithmetic Operators: 
+### 1. Arithmetic Operators: 
 
-These operators are used to perform arithmetic/mathematical operations on operands. Examples: (+, -, *, /, %,++,–). Arithmetic operators are of two types: 
+These operators are used to perform arithmetic/mathematical operations on operands. Examples: (`+, -, *, /, %,++,–`). Arithmetic operators are of two types: 
 
-a) Unary Operators: Operators that operate or work with a single operand are unary operators. For example: Increment(++) and Decrement(–) Operators
-
+#### a) Unary Operators: Operators that operate or work with a single operand are unary operators. For example: 
+- Increment(++) and 
+- Decrement(–) Operators
+```cpp
 int val = 5;
 ++val;  // 6
+```
 b) Binary Operators: Operators that operate or work with two operands are binary operators. For example: Addition(+), Subtraction(-), multiplication(*), Division(/) operators
 
 int a = 7;
