@@ -25,12 +25,13 @@ These operators are used to perform arithmetic/mathematical operations on operan
 int val = 5;
 ++val;  // 6
 ```
-b) Binary Operators: Operators that operate or work with two operands are binary operators. For example: Addition(+), Subtraction(-), multiplication(*), Division(/) operators
-
+#### b) Binary Operators: Operators that operate or work with two operands are binary operators. For example: Addition(+), Subtraction(-), multiplication(*), Division(/) operators
+```cc
 int a = 7;
 int b = 2;
 cout<<a+b; // 9
-2. Relational Operators:
+```
+### 2. Relational Operators:
 
 These are used for the comparison of the values of two operands. For example, checking if one operand is equal to the other operand or not, whether an operand is greater than the other operand or not, etc. Some of the relational operators are (==, >= , <= )(See this article for more reference).
 
