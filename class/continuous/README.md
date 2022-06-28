@@ -96,33 +96,38 @@ If initially, the value stored in a is 6. Then (a /= 2) = 3.
 
 Apart from the above operators, there are some other operators available in C or C++ used to perform some specific tasks. Some of them are discussed here: 
 
-#### a. sizeof operator: 
+### a. sizeof operator: 
 
 sizeof is much used in the C/C++ programming language.
 It is a compile-time unary operator which can be used to compute the size of its operand.
 The result of sizeof is of the unsigned integral type which is usually denoted by size_t.
 Basically, the sizeof the operator is used to compute the size of the variable.(See this article for reference)
-b. Comma Operator: 
+
+### b. Comma Operator: 
 
 The comma operator (represented by the token) is a binary operator that evaluates its first operand and discards the result, it then evaluates the second operand and returns this value (and type).
 The comma operator has the lowest precedence of any C operator.
 Comma acts as both operator and separator. (See this article for reference)
-c. Conditional Operator: 
+
+### c. Conditional Operator: 
 
 The conditional operator is of the form Expression1? Expression2: Expression3.
 Here, Expression1 is the condition to be evaluated. If the condition(Expression1) is True then we will execute and return the result of Expression2 otherwise if the condition(Expression1) is false then we will execute and return the result of Expression3.
 We may replace the use of if..else statements with conditional operators. (See this article for reference)
-d. dot (.) and arrow (->) Operators:
+
+### d. dot (.) and arrow (->) Operators:
 
 Member operators are used to reference individual members of classes, structures, and unions.
 The dot operator is applied to the actual object. (See this article for reference)
 The arrow operator is used with a pointer to an object. (See this article for reference)
-e.  Cast Operator:
+
+### e.  Cast Operator:
 
 Casting operators convert one data type to another. For example, int(2.2000) would return 2.
 A cast is a special operator that forces one data type to be converted into another. 
 The most general cast supported by most of the C++ compilers is as follows −   [ (type) expression ]. (See this article for reference)
-f.  &,* Operator:
+
+### f.  &,* Operator:
 
 Pointer operator & returns the address of a variable. For example &a; will give the actual address of the variable.
 Pointer operator * is a pointer to a variable. For example *var; will pointer to a variable var. (See this article for reference
