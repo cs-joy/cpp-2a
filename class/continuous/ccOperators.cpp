@@ -6,13 +6,13 @@ void sizeofOperator();
 void commaOperator();
 
 
-int f1(){
-    int num  = 1;
+int f1( int num ){
+    
     return num;
 }
 
-int f2(){
-    int num = 2;
+int f2( int num ){
+
     return num;
 }
 
@@ -77,9 +77,30 @@ void commaOperator() {
     // Comma as an operator: 
     int i = (5, 10);
 
-    int j = (f1(), f2()); /* 
+    int j = (f1(1), f2(2)); /* 
                               f1() is called (evaluated) first followed by f2().
                               The returned value of f2() is assigned to j
                           */
     cout << "Comma as an operator: " << i << "\n" << j;
+
+    // Comma as a separator: 
+
+    int firstNum = 2, secNum = 4;
+    
+
+    /*
+      Comma acts as a separator when used with function calls and definitions, function like macros, variable declarations, enum declarations, and similar constructs.  
+    */
+   cout << "\nComma as a separator::\n";
+   int myNum;
+   /*
+   int myNum = 5, 15;
+     This will generate an error as comma in this case acts as a separator as declaration takes place.
+     We can solve this error in the following way_
+   */
+   myNum = 5, 15;
+   
+   cout << "myNum: " << myNum;
+
+   // refference :: https://www.geeksforgeeks.org/comna-in-c-and-c/
 }
