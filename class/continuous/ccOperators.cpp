@@ -3,11 +3,12 @@
 using namespace std;
 
 void sizeofOperator();
+void commaOperator();
 
 int main() {
 
     sizeofOperator();
-    cout << "br\n";
+    cout << "\nbr\n";
     commaOperator();
 
     return 0;
@@ -60,6 +61,7 @@ void sizeofOperator(){
 }
 
 void commaOperator() {
+    // The comma operator (represented by the token) is a binary operator that evaluates its first operand and discards the result, it then evaluates the second operand and returns this value (and type).
     int i = (5, 10);
     cout << i;
 }
