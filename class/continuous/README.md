@@ -39,7 +39,7 @@ int a = 3;
 int b = 5;
 a < b;
 // operator to check if a is smaller than b
-3. Logical Operators:
+### 3. Logical Operators:
 
 Logical Operators are used to combine two or more conditions/constraints or to complement the evaluation of the original condition in consideration. The result of the operation of a logical operator is a Boolean value either true or false. 
 
