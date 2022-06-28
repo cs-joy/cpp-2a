@@ -1,3 +1,3 @@
 ## myContinuous
 
-[Geeksforgeeks](https://www.geeksforgeeks.org/operators-c-c/)
+[Geeksforgeeks](https://www.geeksforgeeks.org/operators-c-c/ "operators")
