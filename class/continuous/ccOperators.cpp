@@ -47,9 +47,12 @@ void sizeofOperator(){
     cout << "\n--Malloc\n";
 
     // Dynamically allocate memory using malloc()
-    int* ptr = (int*)malloc(10 * sizeof(int));
+    int* ab= (int*)malloc(10 * sizeof(int));
+    int value = 23;
+    ab = &value;
 
-    cout << ptr;
+
+    cout << *ab;
     // refference - checkout this article to learn more: https://www.geeksforgeeks.org/dynamic-memory-allocation-in-c-using-malloc-calloc-free-and-realloc/
 
 }
