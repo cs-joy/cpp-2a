@@ -109,4 +109,6 @@ void commaOperator() {
    // refference :: https://www.geeksforgeeks.org/comna-in-c-and-c/
 }
 
-void conditionalOperator(){}
+void conditionalOperator(){
+    // follow: https://www.geeksforgeeks.org/operators-c-c/
+}
