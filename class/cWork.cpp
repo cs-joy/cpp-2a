@@ -48,13 +48,13 @@ void notOrOperator(){
 }
 
 int main(){
-    cout << "AND Operator\n---------\n";
+    cout << "\n---------\nAND Operator\n\n";
     andOperator();
-    cout << "\nOR Operator\n---------\n";
+    cout << "\n---------\nOR Operator\n\n";
     orOperator();
-    cout << "\nnotAnd Operator\n---------\n";
+    cout << "\n---------\nnotAnd Operator\n\n";
     notAndOperator();
-    cout << "\nnotOr Operator\n---------\n";
+    cout << "\n---------\nnotOr Operator\n\n";
     notOrOperator();
 
     return 0;
