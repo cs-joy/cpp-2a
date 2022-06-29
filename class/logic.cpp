@@ -19,22 +19,21 @@ int main() {
     cin.ignore();
     cin.getline(arr, 100);
     
-
+    // first character should not be 's'
     if(!(tolower(arr[0]) == 's')){
-
 
        // // use logical not(!) operator
        if(!(tolower(frrr[0]) == tolower(mrrr[0]))){
 
            // use logical and(&&) operator
-           if(tolower(frrr[1] == 'a' && tolower(mrrr[1] == 'a'))){
+           if(tolower(frrr[1] == 'a' && tolower(mrrr[1] == 'a'))){ // should be need to follow this condition - second character should be 'a'
 
                int frrrLast = strlen(frrr) - 1;
                int mrrrLast = strlen(mrrr) - 1;
                int arrLast = strlen(arr) - 1;
 
                // use logical or(||) operator
-               if (frrr[frrrLast] == arr[arrLast] || mrrr[mrrrLast] == arr[arrLast])
+               if (frrr[frrrLast] == arr[arrLast] || mrrr[mrrrLast] == arr[arrLast]) // should be follow any one condition
                {
                    cout << "accepted";
                }
@@ -56,7 +55,7 @@ int main() {
     } 
     else 
     {
-        cout << "not accepted";
+        cout << "not accepted\nfirst character should not be s";
     }
 
     return 0;
