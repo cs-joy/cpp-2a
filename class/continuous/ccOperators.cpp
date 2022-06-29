@@ -110,5 +110,12 @@ void commaOperator() {
 }
 
 void conditionalOperator(){
-    // follow: https://www.geeksforgeeks.org/operators-c-c/
+
+  bool condition= 3 > 5;
+
+  int ifConditionTrue = 125, ifConditionFalse = 220;
+
+  cout << "result: " << (condition ? ifConditionTrue : ifConditionFalse);
+  
+
 }
