@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1652519891 source:d:\c++keyword\main.cpp
+	<iostream>
+
+1652521340 source:d:\c++keyword\keyword.cpp
+	<iostream>
+

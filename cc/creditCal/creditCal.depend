@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1666757255 source:d:\cc\creditcal\main.cpp
+	<iostream>
+	<conio.h>
+	<string>
+	<stdlib.h>
+	"windows.h"
+
